@@ -58,6 +58,18 @@ def div(a, 0) do
 ```
 
 
+### Pipe
+
+Simplify chained operations
+
+```
+val = 
+      "leo"
+      |> reverse
+      |> capitalize
+      |> reverse
+```
+
 ## TODO
 
  * [Elixir metaprogramming Basics](http://code.tutsplus.com/articles/elixir-metaprogramming-basics--cms-30011?_ga=2.178450723.629753897.1531236672-992222023.1531236672)
