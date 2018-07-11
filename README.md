@@ -15,7 +15,7 @@ This project is organized in elixir source files and each example have comments.
 
     elixir types.exs
 
-### mix
+### Mix
 
 Mix creates a new Elixir project
 
@@ -30,7 +30,7 @@ REPL interaction
 
 ## Nice stuffs about elixir (my opinion)
 
-###mix
+### mix
 
 Nice tool to create one inicial project, could help to organize projects and already create one test file :)
 
