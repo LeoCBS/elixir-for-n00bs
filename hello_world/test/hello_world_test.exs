@@ -14,4 +14,14 @@ defmodule HelloWorldTest do
     {:error, err} = HelloWorld.div(1,0)
     assert err == "attempt at division by zero"
   end
+  test "strings and pipes" do
+    import String
+
+    val = 
+      "leo"
+      |> reverse
+      |> capitalize
+      |> reverse
+    assert val == "leO"
+  end
 end
