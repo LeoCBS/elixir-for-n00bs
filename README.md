@@ -2,6 +2,13 @@
 
 Simple project to study and practice Elixir
 
+## Nice things about functional lang
+
+ * No mutable data (no side effect)
+ * No state (no implicit, hidden state. Functional programming do not eliminate state, it just make it visible and explicit (at least when programmers want it to be).
+ * Referential transparency: Expressions can be replaced by its values. example
+   = ``` 5*5 can be replaced by 25 ```
+
 ## requirements
 
  * Elixir >= 1.6
