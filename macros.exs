@@ -14,8 +14,10 @@ defmodule Main do
  
   def start! do
     MyLib.test({1,2,3})
+    MyLib.testunquoet(1 + 2) |> IO.inspect
   end
 end
  
 
 Main.start!
+
